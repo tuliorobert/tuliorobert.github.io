@@ -65,6 +65,10 @@ body {
     animation: glitch 725ms infinite;
 }
 
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+
 .nav-link {
     text-decoration: none;
     color: #fff;
