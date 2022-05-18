@@ -22,8 +22,15 @@ body {
     animation: glitch 725ms infinite;
 }
 
-.btn {
+.buttons a {
     margin-top: 1em;
     color: #fff;
-    font-size: 1.2em;
+    text-decoration: none;
+    font-size: 22px;
+    transition: 0.5s;
+}
+
+.buttons a:focus {
+    background: #fff;
+    color: #000;
 }
