@@ -5,6 +5,11 @@ body {
     background: #000;
     color: #fff;
     font-family: 'Oswald', sans-serif;
+}
+
+/* Index Langs */
+
+.body {
     margin-top: 8em;
 }
 
@@ -33,4 +38,32 @@ body {
 .buttons a:focus {
     background: #fff;
     color: #000;
+}
+
+/* Main Index */
+
+.navbar {
+    padding: 1em;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 23px;
+}
+
+.navbar-brand:hover {
+    color: #fff;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: 0.5s;    
+}
+
+.nav-link:hover {
+    color: #fff;
+    letter-spacing: 5px;
+    transition: 0.5s;
 }
