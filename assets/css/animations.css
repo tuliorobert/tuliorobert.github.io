@@ -28,3 +28,8 @@
         -0.04em -0.025em 0 #ae00ff;
     }
   }
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
